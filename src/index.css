@@ -488,7 +488,7 @@ img { max-width: 100%; display: block; }
 .stat-icon.blue { background: rgba(59, 130, 246, 0.12); color: var(--info); }
 .stat-icon.red { background: rgba(239, 68, 68, 0.12); color: var(--danger); }
 
-.stat-card::after.green { background: var(--primary-400); }
+.stat-card.green::after { background: var(--primary-400); }
 
 .stat-value {
   font-size: 1.8rem;
